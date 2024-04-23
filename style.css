@@ -1,0 +1,123 @@
+body {
+  background-image: url(https://unblast.com/wp-content/uploads/2021/01/Space-Background-Images.jpg);
+  padding: 20px;
+  
+  
+}
+
+h1 {
+  font-size: 40px;
+  font-family: sans-serif;
+  text-align: center;
+  margin: auto;
+  color: yellow;
+  max-width: 500px;
+  min-width: 300px;
+
+}
+
+p {
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+  color: yellow;
+}
+
+.Title {
+  font-size: 20px;
+  color: yellow;
+  margin: auto;
+  font-family: Tahoma;
+}
+
+.cats-dogs {
+  color: orange;
+  font-family: Tahoma;
+  text-align: center;
+  margin: 0 0.5em 0 110
+  
+}
+
+.Name {
+  color: orange;
+  font-family: Tahoma;
+  margin: 0 0.5em 0 75
+  
+  
+}
+
+form {
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+  
+}
+
+.box {
+  display: grid;
+  place-items: center;
+}
+
+label[for="first-name"]{
+  color: orange;
+  margin-bottom: 5px;
+}
+
+label[for="last-name"]{
+  color: orange;
+  margin-bottom: 5px
+}
+
+label[for="email"]{
+  color: orange;
+  margin-bottom: 5px;
+}
+label[for="age"]{
+  color: orange;
+  margin: 145px;
+  margin-top: 5px;
+}
+
+label[for="amount"]{
+  color: orange;
+  text-align: center;
+  margin-left: 120px;
+}
+
+.age {
+  margin: 190;
+}
+
+select {
+  margin: 10px 0 0 0;
+  width: 50%;
+  min-height: 2em;
+  margin-left: 25%;
+  margin-bottom: 0.5em
+
+}
+
+textarea {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px
+}
+  
+input[type="submit"] {
+  display: block;
+  width: unset;
+  margin: auto;
+  height: auto;
+  font-size: 1.1rem;
+  background-color: gray;
+  border-color: white;
+  min-width: 150px;
+}
+input[type="number"]{
+  width: 25%;
+  margin-left: 13.5em;
+  margin-top: 5px
+
+}

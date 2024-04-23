@@ -1,0 +1,58 @@
+<HTML lang="eng">
+<head>
+<link rel="stylesheet" href="styles.css">
+<meta name="viewport"  charset="UTF-8" />
+<meta content="width=device-width, initial-scale=1.0" />
+  <h1 id="title">Michael's Survey Form</h1>
+  <p id="description">This is just a test survey</p>
+</head>
+<body>
+<main>
+<form id="survey-form">
+  <fieldset>
+    <legend class="Title">Please enter your first name</legend>
+    <label for="first-name" class="box" id="name-label">in the box below<input id="name" name="first-name" placeholder="John" type="text" required /></label>
+    </fieldset>
+  <fieldset>
+    <legend class="Title">Please enter your last name</legend>
+    <label for="last-name" class="box" id="last-label">in the box below<input name="last-name"  placeholder="Doe" type="text" required /></label>
+    </fieldset>
+  <fieldset>
+    <legend class="Title">Please enter your email</legend>
+    <label for="email" class="box" id="email-label">in the box below<input id="email" name="email" type="email" placeholder="someone@something.com" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid email address" /></label>
+    </fieldset>
+    <fieldset>
+      <legend class="Title">What is your age?</legend>
+      <label for="age" class="age" id="number-label">Please enter your age below<input id="number" type="number" min="10" max="100"  required placeholder="Ages 10-100" value="number"/></label>
+    </fieldset>
+    <fieldset>
+      <legend class="Title">Cats or Dogs?</legend>
+        <label for="cats" class="cats-dogs"><input id="cats" type="radio" name="cats-dogs" value="cats" checked>Cats</label>
+        <label for="dogs" class="cats-dogs"><input id="dogs" type="radio" name="cats-dogs" value="dogs">Dogs</label> 
+    </fieldset>
+    <fieldset>
+      <legend class="Title">Which describes your Cat or Dog?</legend>
+      <label for="skinny" class="Name"><input id="skinny" type="checkbox" name="skinny" value="skinny">Skinny</label>
+      <label for="fat" class="Name"><input id="fat" type="checkbox" name="fat" value="fat">Fat</label>
+      <label for="chonk" class="Name"><input id="chonk" type="checkbox" name="chonk" value="chonk">Chonk</label>
+      </fieldset>
+      <fieldset>
+        <legend class="Title">How many do you have?</legend>
+        <label for="amount" class="Amount">Please choose the amount below<select id="dropdown">
+          <option value"">(select one)</option">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="3+">More than 3!?</option>
+          </select>
+          </label>
+      </fieldset>
+      <fieldset>
+        <legend class="Title">Anything else you want to add?</legend>
+        <label for="info"><textarea id="info" name="info" rows="3" cols="30" placeholder="Enter anything else you wish to add..."></textarea></label>
+        <input id="submit" type="submit" value="submit" name="submit"></input>
+        </fieldset>
+</form>
+</main>
+</body>
+</html>
